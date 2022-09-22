@@ -1,0 +1,31 @@
+.Header {
+  max-width: 100vw;
+  height: 4rem;
+  position: static;
+  top: 0;
+  box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.4);
+  padding: 0 2rem;
+
+  &,
+  .Profile,
+  .Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Links,
+  .Profile {
+    gap: 0.6rem;
+    height: 100%;
+    align-self: center;
+  }
+
+  .Links {
+    list-style-type: none;
+  }
+
+  .Profile img {
+    height: 60%;
+  }
+}

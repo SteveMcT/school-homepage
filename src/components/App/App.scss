@@ -1,0 +1,16 @@
+.App-Main {
+  width: 100vw;
+  background: #fff;
+
+  .App-Main-Content {
+    width: 60vw;
+    margin: 8rem 8rem -4rem;
+  }
+
+  img {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    bottom: 0;
+  }
+}
